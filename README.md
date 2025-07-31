@@ -15,7 +15,7 @@ A beginner-friendly React project that allows users to discover random open-sour
 
 ## 🚀 Live Demo
 
-📍 **[View it here](https://github.com/nurf21/github-random-repository)**
+📍 **[View it here](https://nurf21.github.io/github-random-repository/)**
 
 ---
 
