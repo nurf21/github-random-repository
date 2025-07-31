@@ -55,7 +55,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center p-6">
+    <div className="min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 flex items-center justify-center p-6">
       <div className="w-full max-w-md space-y-4">
         <h1 className="text-2xl font-bold">GitHub Repository Finder</h1>
 
@@ -66,20 +66,20 @@ function App() {
         />
 
         {status === "empty" && (
-          <div className="bg-gray-200 p-4 rounded text-center">
+          <div className="bg-gray-200 dark:bg-gray-700 p-4 rounded text-center">
             Please select a language
           </div>
         )}
 
         {status === "loading" && (
-          <div className="bg-gray-200 p-4 rounded text-center">
+          <div className="bg-gray-200 dark:bg-gray-700 p-4 rounded text-center">
             Loading, please wait..
           </div>
         )}
 
         {status === "error" && (
           <div className="space-y-2">
-            <div className="bg-red-200 p-4 rounded text-center">
+            <div className="bg-red-200 text-black p-4 rounded text-center">
               Error fetching repositories
             </div>
             <button
