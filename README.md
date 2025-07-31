@@ -1,12 +1,76 @@
-# React + Vite
+# 🔍 GitHub Random Repository Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beginner-friendly React project that allows users to discover random open-source GitHub repositories by programming language. This project introduces working with external APIs, asynchronous requests, UI states, and basic component testing.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔧 Select a programming language from a dropdown
+- 🔁 Fetch a **random** repository using the GitHub Search API
+- 📊 View repo name, description, stars, forks, and open issues
+- 🌘 Supports **dark mode** with Tailwind CSS
+- ♻️ "Refresh" button to get a different random repository
+- ❌ Graceful handling of loading, error, and empty states
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Live Demo
+
+📍 **[View it here](https://github.com/nurf21/github-random-repository)**
+
+---
+
+## 📦 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/nurf21/github-random-repository.git
+cd github-random-repository
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the App
+
+```bash
+npm run dev
+```
+
+The app will be available at [http://localhost:5173](http://localhost:5173).
+
+---
+
+## 🧪 Run Tests
+
+```bash
+npm run test
+```
+
+The project uses [`vitest-browser-react`](https://www.npmjs.com/package/vitest-browser-react) for testing in real browser environments.
+
+---
+
+## 🛠️ Built With
+
+- [React](https://react.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [GitHub Repository Search API](https://docs.github.com/en/rest/reference/search#search-repositories)
+- [Vite](https://vite.dev/)
+- [Vitest](https://vitest.dev/)
+
+---
+
+## 🧑‍💻 Credits
+
+- Language list sourced from [kamranahmedse/githunt](https://github.com/kamranahmedse/githunt)
+- Project template and inspiration from [roadmap.sh](https://roadmap.sh/projects/github-random-repo/)
+
+---
+
+## 📜 License
+
+This project is open source and available under the [MIT License](LICENSE).
