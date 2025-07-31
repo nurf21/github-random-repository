@@ -16,7 +16,7 @@ export default function RepositoryCard({ repo, onRefresh }) {
         <span>🐞 {repo.open_issues_count}</span>
       </div>
       <button
-        className="w-full bg-black text-white p-2 rounded mt-2 dark:bg-white dark:text-black"
+        className="w-full bg-black text-white p-2 rounded mt-2 cursor-pointer dark:bg-white dark:text-black"
         onClick={onRefresh}
       >
         Refresh
