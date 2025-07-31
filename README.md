@@ -68,6 +68,7 @@ The project uses [`vitest-browser-react`](https://www.npmjs.com/package/vitest-b
 
 - Language list sourced from [kamranahmedse/githunt](https://github.com/kamranahmedse/githunt)
 - Project template and inspiration from [roadmap.sh](https://roadmap.sh/projects/github-random-repo/)
+- Random icons created by noomtah from [Flaticon](https://www.flaticon.com/free-icons/random)
 
 ---
 
