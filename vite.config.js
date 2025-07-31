@@ -6,4 +6,11 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   base: "/github-random-repository",
   plugins: [react(), tailwindcss()],
+  test: {
+    browser: {
+      enabled: true,
+      provider: "playwright",
+      instances: [{ browser: "chromium" }],
+    },
+  },
 });

@@ -2,6 +2,7 @@ export default function LanguageSelector({ languages, selected, onChange }) {
   return (
     <div className="relative">
       <select
+        aria-label="Language Selector"
         className="w-full p-2 appearance-none border rounded bg-white dark:bg-gray-800 dark:text-white dark:border-gray-700"
         value={selected}
         onChange={onChange}
