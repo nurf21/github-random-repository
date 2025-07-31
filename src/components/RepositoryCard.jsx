@@ -11,9 +11,17 @@ export default function RepositoryCard({ repo, onRefresh }) {
       </a>
       <p>{repo.description}</p>
       <div className="text-sm text-gray-500 dark:text-gray-400 flex space-x-4">
-        <span>⭐ {repo.stargazers_count}</span>
-        <span>🍴 {repo.forks_count}</span>
-        <span>🐞 {repo.open_issues_count}</span>
+        <div className="flex gap-4 text-sm text-gray-600 dark:text-gray-300">
+          <span title="Number of stars on GitHub">
+            ⭐ Stars: {repo.stargazers_count}
+          </span>
+          <span title="Number of forks on GitHub">
+            🍴 Forks: {repo.forks_count}
+          </span>
+          <span title="Number of open issues">
+            🐞 Issues: {repo.open_issues_count}
+          </span>
+        </div>
       </div>
       <button
         className="w-full bg-black text-white p-2 rounded mt-2 cursor-pointer dark:bg-white dark:text-black"
